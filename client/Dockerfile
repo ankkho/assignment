@@ -3,7 +3,7 @@ WORKDIR /client
 
 COPY . .
 
-# RUN yarn install --production --network-timeout 900000
+RUN yarn install --production --network-timeout 900000
 RUN yarn build
 
 COPY ./proto ./build

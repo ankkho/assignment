@@ -18,7 +18,7 @@ client - grpc client that exposes two endpoints
 Run the below curl commands in order to interact with grpc proxy service:
 
 ```
-curl --location --request GET 'localhost:3000/greeter/your-name-here'
+curl --location --request GET 'localhost:3000/greeter/ankit'
 
 curl --location --request GET 'localhost:3000/ping'
 
