@@ -1,0 +1,27 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "author": "Ankit Khosla",
+  "license": "ISC",
+  "scripts": {
+    "add-proto": "cp -r ./proto ./build",
+    "start": "ts-node ./build/index.js",
+    "dev-start": "ts-node ./index.ts",
+    "dev": "nodemon",
+    "build": "tsc -p . && yarn add-proto"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.5.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.2",
+    "grpc": "^1.24.11",
+    "grpc-caller": "^0.14.0",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
