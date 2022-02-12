@@ -1,0 +1,5 @@
+node_modules
+build
+Dockerfile
+nodemon.json
+.dockerignore
