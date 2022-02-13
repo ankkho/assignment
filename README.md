@@ -30,7 +30,7 @@ curl --location --request GET 'localhost:3000/ping'
 Import proto file (server/proto/greeter.proto) into postman  
 
 Set server url as: `localhost:6000`  
-Select `greeter` server  
+Select `greeter` service  
 Provide a version: `1.0.0`  
 Select any method provided  
 Click `Invoke`
